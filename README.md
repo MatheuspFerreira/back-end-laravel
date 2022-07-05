@@ -7,6 +7,28 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+
+## About the Project and Available Scripts
+
+In the project directory, you can run:
+
+### `php artisan serve`
+
+Runs the app in the development mode.
+
+To view Voyager in your browser open http://127.0.0.1:8000/admin/login
+
+All end-points 
+
+### `Replace ID with product id`
+
+To get http://127.0.0.1:8000/api/products <br/>
+To post http://127.0.0.1:8000/api/products <br/>
+To put http://127.0.0.1:8000/api/product/ID <br/>
+To delete http://127.0.0.1:8000/api/product/ID <br/>
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
