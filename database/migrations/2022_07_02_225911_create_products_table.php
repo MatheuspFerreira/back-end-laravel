@@ -25,6 +25,7 @@ return new class extends Migration
             $table->string('payment');
             $table->string('starcondition');
             $table->string('productimg');
+            
             $table->timestamps();
         });
     }
