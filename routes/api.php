@@ -20,14 +20,14 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/products', 
+Route::get('/products/get/all', 
     [ProductController::class, 'getAllProducts']);
 
-Route::post('/product',
+Route::post('/product/register',
     [ProductController::class, 'createNewProduct']);
 
-Route::put('/product/{id}',
+Route::put('/product/update/{id}',
     [ProductController::class, 'updateProduct']);
 
-Route::delete('/product/{id}',
+Route::delete('/product/delete/{id}',
     [ProductController::class, 'deleteProduct']);
